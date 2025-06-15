@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "엔트리 먹통 코드",
+  "version": "1.0",
+  "description": "특정 사이트에서만 장난 코드 실행",
+  "content_scripts": [
+    {
+      "matches": ["https://playentry.org/*"],
+      "js": ["background.js"]
+    }
+  ]
+}
